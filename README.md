@@ -14,16 +14,16 @@ Features JWT authentication
 
 # API documentation
 '/register' is used to register.
-Add 'username', 'email' and 'password' fields in the body
+Add 'username', 'email' and 'password' fields in the body.
 
-'/login' is used to login
+'/login' is used to login. <br>
 Login is done via 'email' and 'password' fields
 
-'/users' is a public api used to fetch all the users specifically their usernames
+'/users' is a public api used to fetch all the users specifically their usernames <br>
 
-'/edit/:id' is a protected api which can only be accessed by logged in users
+'/edit/:id' is a protected api which can only be accessed by logged in users. <br>
 Add the following key-value pair in the header when making a request <br>
-token: Bearer [JWT access token]
-Add the fields you want to update in the body of the request
+token: Bearer [JWT access token] <br>
+Add the fields you want to update in the body of the request.
 
 Postman collection json file is added in the repository for clarity
